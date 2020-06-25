@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Registration</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+    <div class="container"></div>
+    <div class="col-sm-4" style="background-color:rgb(255, 200 , 175);">
+        <br>
+        <h1>Register to Social Catch</h1><br>
+        <form action="" method="post">
+            <div class="form-group">
+                <label for="username">Username:</label>
+                <input type="email" class="form-control" id="username" placeholder="Enter Username" name="nameprompt">
+            </div>
+            <div class="form-group">
+                <label for="pwd">Password:</label>
+                <input type="password" class="form-control" id="passcode" placeholder="Enter Password" name="pwdprompt">
+            </div>
+            <div class="form-group">
+                <label for="cpwd">Confirm Password:</label>
+                <input type="password" class="form-control" id="repasscode" placeholder="Re-enter password"
+                    name="repwdprompt">
+            </div>
+            <div class="checkbox">
+                <label><input type="checkbox" name="age" required>I am 13+ years of age</label>
+            </div>
+            <div class="checkbox">
+                <label><input type="checkbox" name="rule" required>I accept the <a
+                        href="https://en.wikipedia.org/wiki/Terms_of_service" target="_blank">TOS and Privacy
+                        Rules</a></label>
+
+            </div>
+            <button type="submit" class="btn btn-success">Submit</button><br><br><br>
+        </form>
+    </div>
+
+</body>
+
+</html>
